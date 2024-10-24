@@ -1,0 +1,55 @@
+.image-remover-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 20px;
+  max-width: 1200px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid black; 
+  border-radius: 8px; 
+  background-color: #f8f9fa; 
+}
+.canvas-wrapper {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+button {
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #4a0072;
+}
+
+#file-input {
+  margin-top: 20px;
+}
+
+#result-image {
+  margin-top: 20px;
+  text-align: center;
+}
+
+input[type="file"] {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
